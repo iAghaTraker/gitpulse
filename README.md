@@ -27,8 +27,11 @@ git installed.
 ## Installation
 
 ```bash
-pip install git+https://github.com/aghatraker/gitpulse.git
+pip install gitpulse-py
 ```
+
+> The Python package is published on PyPI as **`gitpulse-py`** (the plain
+> `gitpulse` name was already taken). You still `import gitpulse` in code.
 
 Or, to develop locally:
 
