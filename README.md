@@ -7,9 +7,23 @@ activity, file churn, bus factor — in plain Python with **zero dependencies**.
 It only executes read-only `git` commands, so it works on any repository with
 git installed.
 
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![PyPI - Version](https://img.shields.io/pypi/v/gitpulse-py)](https://pypi.org/project/gitpulse-py/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/gitpulse-py)](https://pypi.org/project/gitpulse-py/)
+[![Python](https://img.shields.io/pypi/pyversions/gitpulse-py)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/pypi/l/gitpulse-py)](LICENSE)
 [![CI](https://img.shields.io/badge/CI-github%20actions-blue)](.github/workflows/ci.yml)
+
+---
+
+## Install
+
+```bash
+pip install gitpulse-py
+```
+
+> The package is published on PyPI as **`gitpulse-py`** (the plain `gitpulse`
+> name was already taken). You still `import gitpulse` in code, and the
+> command is `gitpulse`.
 
 ---
 
@@ -21,23 +35,6 @@ git installed.
 - ASCII bar charts for terminal-friendly visualization.
 - Markdown report generation for CI badges/issues/notebooks.
 - Tested against Python 3.10 → 3.13 on GitHub Actions.
-
----
-
-## Installation
-
-```bash
-pip install gitpulse-py
-```
-
-> The Python package is published on PyPI as **`gitpulse-py`** (the plain
-> `gitpulse` name was already taken). You still `import gitpulse` in code.
-
-Or, to develop locally:
-
-```bash
-pip install -e ".[dev]"
-```
 
 ---
 
